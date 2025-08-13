@@ -1,20 +1,20 @@
 [gauntlet]
-name = 'Template Plugin'
+name = 'Bletooth Manager'
 description = """
-Template Plugin Description
+Connect and disconnect bluetooth devices.
 """
 
 [[entrypoint]]
 id = 'template-view'
-name = 'Template view'
+name = 'Bletooth Manager'
 path = 'src/template-view.tsx'
 type = 'view'
 description = """
-Template Plugin Entrypoint Description
+Bluetopth devices list
 """
 
 [permissions.exec]
-command = ["bluetoothctl", "grep"]
+command = ["bluetoothctl"]
 
 [[supported_system]]
 os = 'linux'
