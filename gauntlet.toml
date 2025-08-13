@@ -1,12 +1,12 @@
 [gauntlet]
-name = 'Bletooth Manager'
+name = 'Bluetooth Manager'
 description = """
 Connect and disconnect bluetooth devices.
 """
 
 [[entrypoint]]
 id = 'template-view'
-name = 'Bletooth Manager'
+name = 'Bluetooth Manager'
 path = 'src/template-view.tsx'
 type = 'view'
 description = """
