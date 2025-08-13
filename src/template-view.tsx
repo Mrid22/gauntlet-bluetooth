@@ -1,5 +1,5 @@
 import { showHud } from "@project-gauntlet/api/helpers";
-import { ActionPanel, Detail, List } from "@project-gauntlet/api/components";
+import { ActionPanel, List } from "@project-gauntlet/api/components";
 import { ReactElement, useState } from "react";
 
 export default function View(): ReactElement {
