@@ -1,0 +1,27 @@
+[gauntlet]
+name = 'Template Plugin'
+description = """
+Template Plugin Description
+"""
+
+[[entrypoint]]
+id = 'template-view'
+name = 'Template view'
+path = 'src/template-view.tsx'
+type = 'view'
+description = """
+Template Plugin Entrypoint Description
+"""
+
+[permissions.exec]
+command = ["bluetoothctl", "grep"]
+
+[[supported_system]]
+os = 'linux'
+
+# [[supported_system]]
+# os = 'macos'
+
+# [[supported_system]]
+# os = 'windows'
+
